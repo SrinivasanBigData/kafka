@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<configuration>
+	<property>
+		<name>kafka.topicname</name>
+		<value>memeber</value>
+	</property>
+	<property>
+		<name>kafka.poll</name>
+		<value>1000</value>
+	</property>
+	<property>
+		<name>kafka.bootstrap_servers</name>
+		<value>localhost:9092</value>
+	</property>
+	<property>
+		<name>kafka.group_id</name>
+		<value>memeber_group</value>
+	</property>
+	<property>
+		<name>kafka.enable_auto_commit</name>
+		<value>true</value>
+	</property>
+	<property>
+		<name>kafka.auto_commit_interval_ms</name>
+		<value>1000</value>
+	</property>
+	<property>
+		<name>kafka.session_timeout_ms</name>
+		<value>30000</value>
+	</property>
+	<property>
+		<name>kafka.key_deserializer_class</name>
+		<value>org.apache.kafka.common.serialization.StringSerializer</value>
+	</property>
+	<property>
+		<name>kafka.value_deserializer_class</name>
+		<value>org.apache.kafka.common.serialization.StringSerializer</value>
+	</property>
+</configuration>
